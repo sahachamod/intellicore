@@ -5,6 +5,7 @@ import {
   Cloud, 
   BrainCircuit, 
   Lightbulb,
+  Shield,
   ArrowUpRight,
   Mail,
   MapPin,
@@ -84,6 +85,14 @@ export const services = [
     icon: Lightbulb,
     image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80',
     features: ['Technology Strategy', 'Architecture Design', 'Code Reviews', 'Team Training'],
+  },
+  {
+    id: 7,
+    title: 'Cyber Security',
+    description: 'Comprehensive security solutions to protect your digital assets. We safeguard your business from evolving cyber threats.',
+    icon: Shield,
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80',
+    features: ['Penetration Testing', 'Security Audits', 'Data Encryption', 'Incident Response'],
   },
 ]
 
