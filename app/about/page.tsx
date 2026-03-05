@@ -203,12 +203,12 @@ export default function AboutPage() {
 
       <Section className="bg-background-secondary/30">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-satoshi mb-4">Meet Our Leadership</h2>
-          <p className="text-foreground-muted">The team driving our vision forward</p>
+          <h2 className="text-3xl md:text-4xl font-bold font-satoshi mb-4">Meet Our Team</h2>
+          <p className="text-foreground-muted">The people driving our vision forward</p>
         </div>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          {team.slice(0, 4).map((member, index) => (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12 max-w-3xl mx-auto">
+          {team.map((member, index) => (
             <AnimatedCard key={member.id} delay={index * 0.1}>
               <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/30 transition-all text-center group">
                 <img
