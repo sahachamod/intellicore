@@ -191,7 +191,7 @@ export const team = [
   },
   {
     id: 2,
-    name: 'Matheesha',
+    name: 'Matheesha Nadiranga',
     role: 'Senior Software Engineer',
     bio: 'Expert in scalable architectures and cutting-edge technologies.',
     image: '/matheesha.jpeg',
