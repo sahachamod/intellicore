@@ -194,7 +194,7 @@ export const team = [
     name: 'Matheesha',
     role: 'Senior Software Engineer',
     bio: 'Expert in scalable architectures and cutting-edge technologies.',
-    image: 'https://randomuser.me/api/portraits/men/46.jpg',
+    image: '/matheesha.jpeg',
     social: { twitter: '#', linkedin: '#', github: '#' },
   },
 ]
